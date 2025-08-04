@@ -1,0 +1,30 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# LangChain and Groq
+langchain
+langchain-groq
+langchain-core
+langchain-community
+langgraph
+
+# Document Processing
+PyPDF2
+python-docx
+
+# Vector Database and Embeddings
+faiss-cpu
+sentence-transformers
+numpy
+pinecone-client
+langchain-pinecone
+
+# Additional Dependencies
+requests
+python-dotenv
+groq
+
+pinecone-client
+langchain-pinecone

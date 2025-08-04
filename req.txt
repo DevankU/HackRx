@@ -1,0 +1,32 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# LangChain and Groq
+langchain
+langchain-groq
+langchain-core
+langchain-community
+langgraph
+
+# Document Processing
+PyPDF2
+python-docx
+
+# Vector Database and Embeddings
+faiss-cpu
+sentence-transformers
+numpy
+pinecone-client
+langchain-pinecone
+
+# Web Scraping
+scrapy
+beautifulsoup4
+requests
+
+# Utilities
+python-jose[cryptography]
+python-dateutil
+typing-extensions
