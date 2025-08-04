@@ -71,7 +71,7 @@ class Config:
     GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
     PINECONE_API_KEY = os.getenv("PINECONE_API_KEY", "")
     BEARER_TOKEN = "dbbdb701cfc45d4041e22a03edbfc65753fe9d7b4b9ba1df4884e864f3bb934d"
-    EMBEDDING_MODEL = "all-MiniLM-L6-v2"
+    EMBEDDING_MODEL = "paraphrase-MiniLM-L3-v2"
     MAX_CHUNK_SIZE = 512
     CHUNK_OVERLAP = 100
     BASE_SIMILARITY_THRESHOLD = 0.6
