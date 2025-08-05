@@ -8,10 +8,12 @@ ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 ENV PORT=8000
 
-# Install system dependencies
+# Install system dependencies (now includes libmagic1)
 RUN apt-get update && apt-get install -y \
     gcc \
     g++ \
+    libmagic1 \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements first for better caching
