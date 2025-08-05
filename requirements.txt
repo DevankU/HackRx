@@ -1,18 +1,14 @@
-asyncio
-datetime
+
 fastapi
-python-magic
 langchain
 langchain-groq
-logging
 pydantic
-pinecone
+pinecone # Correct name for Pinecone
 python-docx
 python-dotenv
-python-magic-bin
+python-magic-bin  # Use this if you're on Windows; otherwise use python-magic + libmagic on Linux
 requests
 sentence-transformers
 pdfplumber
-typing
 uvicorn
 docx2txt
