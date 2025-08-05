@@ -1,30 +1,18 @@
+asyncio
+datetime
 fastapi
-uvicorn[standard]
-pydantic
-python-multipart
-
-# LangChain and Groq
+python-magic
 langchain
 langchain-groq
-langchain-core
-langchain-community
-langgraph
-
-# Document Processing
-PyPDF2
+logging
+pydantic
+pinecone
 python-docx
-
-# Vector Database and Embeddings
-faiss-cpu
-sentence-transformers
-numpy
-pinecone-client
-langchain-pinecone
-
-# Additional Dependencies
-requests
 python-dotenv
-groq
-
-pinecone-client
-langchain-pinecone
+python-magic-bin
+requests
+sentence-transformers
+pdfplumber
+typing
+uvicorn
+docx2txt
