@@ -6,7 +6,7 @@ pydantic
 pinecone # Correct name for Pinecone
 python-docx
 python-dotenv
-python-magic-bin  # Use this if you're on Windows; otherwise use python-magic + libmagic on Linux
+python-magic # Use this if you're on Windows; otherwise use python-magic + libmagic on Linux
 requests
 sentence-transformers
 pdfplumber
