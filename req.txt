@@ -9,7 +9,7 @@ pydantic
 pinecone
 python-docx
 python-dotenv
-python-magic-bin
+python-magic
 requests
 sentence-transformers
 pdfplumber
